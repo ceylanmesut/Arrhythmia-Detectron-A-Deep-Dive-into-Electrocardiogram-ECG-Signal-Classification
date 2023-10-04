@@ -1,0 +1,20 @@
+name: ml4h-p4
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - jupyter
+  - pip
+  - matplotlib
+  - jupyterlab
+  - numpy
+  - pydot
+  - pandas
+  - tqdm
+  - pip:
+    - tensorflow-gpu==2.5
+    - scikit-learn
+    - keras-tuner
+    - jupyter_http_over_ws
+    - focal-loss
